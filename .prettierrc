@@ -3,7 +3,7 @@
   "semi": true,
   "useTabs": false,
   "tabWidth": 2,
-  "printWidth": 100,
+  "printWidth": 260,
   "arrowParens": "avoid",
   "endOfLine": "lf"
 }

@@ -10,7 +10,7 @@ module.exports = (_, argv) => {
     output: {
       filename: '[name].bundle.js',
       chunkFilename: '[name].[id].js',
-      path: path.resolve('../assets/', 'js'),
+      path: path.resolve('../BlogMainSource/assets/', 'js'),
     },
     optimization: {
       splitChunks: {
@@ -36,7 +36,8 @@ module.exports = (_, argv) => {
       extensions: ['.js', '.jsx', '.ts', '.tsx'],
       alias: {
         '@src': path.resolve(__dirname, 'src/'),
-        '@components': path.resolve(__dirname, 'src/components/')
+        '@components': path.resolve(__dirname, 'src/components/'),
+        '@modules': path.resolve(__dirname, 'src/modules/')
       },
     }
   };
