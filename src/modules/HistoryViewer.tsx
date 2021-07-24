@@ -2,7 +2,7 @@ import React from 'react';
 
 const HistoryViewer = () => {
   return (
-    <div>History</div>
+    <div>Coming Soon</div>
   )
 };
 
